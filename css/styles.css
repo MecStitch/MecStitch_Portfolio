@@ -9,6 +9,7 @@
     --cor-fundo: #231E1B;
     --cor-texto-nav: #A8A8A8;
     --cor-nome: #FAF7DC;
+    --cor-text-footer: #EBD0A1;
 }
 
 ul {
@@ -72,7 +73,7 @@ header nav a {
 
 .eudes {
     width: 100%;
-    padding: 13rem 13rem 27.39rem;
+    padding: 8rem 9rem 10rem;
 }
 
 .eudes .container {
@@ -127,5 +128,103 @@ header nav a {
     height: auto;
 }
 
+footer {
+    background-color: var(--cor-fundo);
+    background: url(../img/footer.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 22.1rem;
+}
 
+footer .container {
+    display: flex;
+    justify-content: center;
+    padding-top: 13rem;
+    gap: 9rem;
+}
 
+footer .container p {
+    color: var(--cor-text-footer);
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+footer .container .linkedin {
+    display: flex;
+    align-items: end;
+    gap: 0.5rem;
+}
+
+footer .container .github {
+    display: flex;
+    align-items: end;
+    gap: 0.3rem;
+}
+
+footer .container .gmail {
+    display: flex;
+    align-items: end;
+    gap: 0.5rem;
+}
+
+.sobre {
+    background: url(../img/Fundo\ do\ Sobre.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 68rem;
+    padding: 10rem 10rem 12rem;
+    max-width: auto;
+}
+
+.sobre .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre h1 {
+    color: var(--cor-fundo);
+    font-size: 8.1041rem;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 2rem;
+}
+
+.sobre p {
+    color:var(--cor-fundo);
+    font-size: 2.1rem;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 2rem;
+}
+
+.estudei {
+    height: 100rem;
+    padding: 11rem 6rem 22rem;
+}
+
+.estudei .fundo_estudei {
+    width: 100%;
+    margin: -6rem;
+    position: absolute;
+    z-index: -1;
+}
+
+.estudei .container {
+    display: flex;
+    flex-direction: column;
+    padding: 30rem 7rem;
+    gap: 10rem;
+}
+
+.estudei .container h2{
+    color: #FFF;
+    font-size: 8rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.estudei .container .estudos {
+    padding: 2rem;
+}
