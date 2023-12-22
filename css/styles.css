@@ -129,7 +129,6 @@ header nav a {
 
 footer {
     background-color: var(--cor-footer);
-
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -202,7 +201,7 @@ footer .container .gmail {
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
-    height: 75rem;
+    height: 80rem;
     padding: 28rem 12rem 12rem;
     box-sizing: border-box;
 }
@@ -217,5 +216,68 @@ footer .container .gmail {
     font-size: 8rem;
     font-weight: 600;
     line-height: normal;
-    padding-top: 6rem;
+    padding: 7rem 2rem 10rem;
+}
+
+.hard {
+    background: url(../img/hard.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 68rem;
+    padding: 8rem 10rem 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hard .container h3{
+    color: #231E1B;
+    font-size: 7.8888rem;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    padding: 18rem;
+}
+
+.soft {
+    display: flex;
+    height: 68rem;
+}
+
+.soft .container h4{
+    color: #FFF;
+    font-size: 7.8888rem;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    padding: 18rem 9rem 13rem;
+}
+
+.soft .container .habilidades {
+    color: var(--cor-texto-nav);
+    font-size: 3.6216rem;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+}
+
+.soft .container .habilidades .criativo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.soft .container .habilidades .observador {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.soft .container .habilidades .organizado {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
