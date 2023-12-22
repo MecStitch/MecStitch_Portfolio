@@ -40,15 +40,20 @@
                 <div class="contato">
 
                     <div class="redes">
-                        <button class="btn_linkedin">
-                            <img src="img/Linkedin.svg" alt="logo linkedin">
-                        </button>
-                        <button class="btn_git">
-                            <img src="img/Github.svg" alt="logo github">
-                        </button>
-                        <button class="btn_gmail">
-                        <img src="img/gmail.svg" alt="logo gmail">
-                        </button>
+
+                        <a href="https://www.linkedin.com/in/eudes-benevides/" target="_blank">
+                            <button class="btn_linkedin">
+                                <img src="img/Linkedin.svg" alt="logo linkedin">
+                            </button>
+                        </a>
+                        <a href="https://github.com/MecStitch" target="_blank">
+                            <button class="btn_git">
+                                <img src="img/Github.svg" alt="logo github">
+                            </button>
+                        </a>
+                            <button class="btn_gmail" onclick="abrirEmailGmail()">
+                            <img src="img/gmail.svg" alt="logo gmail">
+                            </button>
 
                         <div class="botao">
                             <button class="btn_curriculo">
@@ -97,31 +102,46 @@
 
     <section class="estudei">
 
-        <img class="fundo_estudei" src="img/Desenho do Fundo.png" alt="Fundo do que estudei">
-        <div class="container">
-            <h2>O que estudei</h2>
-            <img class="estudos" src="img/estudei.png" alt="coisas que eu já estudei">
-        </div>
-        
+            <div class="container">
+                <div class="container">
+                    <h2>O que estudei</h2>
+                    <img class="estudos" src="img/estudei.png" alt="coisas que eu já estudei">
+                </div>
+            </div>   
+    </section>
+
+    <section class="hard">
+
     </section>
     
 
     <footer>
         <div class="container">
 
-            <div class="linkedin">
-                <img src="img/Linkedin.svg" alt="logo linkedin"><p>/eudes-benevides</p>
-            </div>
+            <a href="https://www.linkedin.com/in/eudes-benevides/" target="_blank">
+                <button class="btn_linkedin">
+                    <div class="linkedin">
+                        <img src="img/Linkedin.svg" alt="logo linkedin"><p>/eudes-benevides</p>
+                    </div>
+                </button>
+            </a>
+            <a href="https://github.com/MecStitch" target="_blank">
+                <button class="btn_git">
+                    <div class="github">
+                        <img src="img/Github.svg" alt="logo github"><p>/MecStitch</p>
+                    </div>
+                </button>
+            </a>
 
-            <div class="github">
-                <img src="img/Github.svg" alt="logo github"><p>/MecStitch</p>
-            </div>
-            
-            <div class="gmail">
-                <img src="img/gmail.svg" alt="logo Gmail"> <p>eudesjw@gmail.com</p>
-            </div>
+                <button class="btn_gmail" onclick="abrirEmailGmail()">
+                    <div class="gmail">
+                            <img src="img/gmail.svg" alt="logo Gmail"> <p>eudesjw@gmail.com</p>
+                    </div>
+                </button>
             
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

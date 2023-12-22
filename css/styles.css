@@ -10,6 +10,7 @@
     --cor-texto-nav: #A8A8A8;
     --cor-nome: #FAF7DC;
     --cor-text-footer: #EBD0A1;
+    --cor-footer: #23574C;
 }
 
 ul {
@@ -46,10 +47,8 @@ html {
 header {
     position: sticky;
     width: 100%;
-    height: 12.7rem;
+    height: 15rem;
     display: flex;
-    background-color: var(--cor-fundo);
-    backdrop-filter: blur(4px);
 }
 
 header .container{
@@ -73,7 +72,7 @@ header nav a {
 
 .eudes {
     width: 100%;
-    padding: 8rem 9rem 10rem;
+    padding: 9rem 12rem 10rem;
 }
 
 .eudes .container {
@@ -129,18 +128,18 @@ header nav a {
 }
 
 footer {
-    background-color: var(--cor-fundo);
-    background: url(../img/footer.png);
+    background-color: var(--cor-footer);
+
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 22.1rem;
+    height: 10.1rem;
 }
 
 footer .container {
     display: flex;
     justify-content: center;
-    padding-top: 13rem;
+    padding-top: 4rem;
     gap: 9rem;
 }
 
@@ -174,8 +173,7 @@ footer .container .gmail {
     background-position: center center;
     background-size: cover;
     height: 68rem;
-    padding: 10rem 10rem 12rem;
-    max-width: auto;
+    padding: 8rem 10rem 12rem;
 }
 
 .sobre .container {
@@ -188,34 +186,30 @@ footer .container .gmail {
     font-size: 8.1041rem;
     font-weight: 600;
     line-height: normal;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .sobre p {
     color:var(--cor-fundo);
-    font-size: 2.1rem;
+    font-size: 2.3rem;
     font-weight: 600;
     line-height: normal;
     margin-bottom: 2rem;
 }
 
 .estudei {
-    height: 100rem;
-    padding: 11rem 6rem 22rem;
-}
-
-.estudei .fundo_estudei {
-    width: 100%;
-    margin: -6rem;
-    position: absolute;
-    z-index: -1;
+    background: url(../img/Desenho\ do\ Fundo.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 75rem;
+    padding: 28rem 12rem 12rem;
+    box-sizing: border-box;
 }
 
 .estudei .container {
     display: flex;
     flex-direction: column;
-    padding: 30rem 7rem;
-    gap: 10rem;
 }
 
 .estudei .container h2{
@@ -223,8 +217,5 @@ footer .container .gmail {
     font-size: 8rem;
     font-weight: 600;
     line-height: normal;
-}
-
-.estudei .container .estudos {
-    padding: 2rem;
+    padding-top: 6rem;
 }
