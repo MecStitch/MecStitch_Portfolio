@@ -9,6 +9,7 @@
     --cor-fundo: #231E1B;
     --cor-texto-nav: #A8A8A8;
     --cor-nome: #FAF7DC;
+    --cor-dourado: #B69A68;
     --cor-text-footer: #EBD0A1;
     --cor-footer: #23574C;
 }
@@ -280,4 +281,22 @@ footer .container .gmail {
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--cor-dourado);
+    border-radius: 6px;
+}
+
+::-ms-scrollbar {
+    width: 6px;
+}
+
+::-ms-scrollbar-thumb {
+    background-color: var(--cor-dourado);
+    border-radius: 6px;
 }
